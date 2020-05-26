@@ -1,0 +1,43 @@
+body {
+    background: #000428;  
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  
+    background: linear-gradient(to right, #004e92, #000428); 
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+#container{
+    width: 800px;
+    background-color: rgb(210, 224, 235);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    margin:auto
+}   
+
+#mensajes{
+    position: absolute;
+    background-color: #ffffff;
+    top: 30%;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px 4px #3333;
+    left: 30%;
+    display: none;
+}
+
+#cargador {
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+
+
